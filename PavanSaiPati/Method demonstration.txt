@@ -1,0 +1,99 @@
+METHOD DEMONSRATION 
+
+ 
+
+getCollegeRanking(Department Directory) 
+
+Each college has multiple departments based on the disciplines offered. This function will return the rank of college calculated by taking average rank of all departments under the college. 
+
+ 
+
+Integer getDepartmentRanking(Faculty Directory, CourseCatalog) 
+
+This function returns the rank of departments based on the feedbacks from alumni students and faculty feedback from current students. 
+
+ 
+
+Integer getCourseRank (StudentDirectory) 
+
+This function returns the ranking of courses based on the feedback given by alumni students. 
+
+ 
+
+Integer getFacultyRanking (StudentDirectory) 
+
+This function returns the ranking of faculty based on the survey feedback that is taken by the currently enrolled students. 
+
+ 
+
+FacultyDirectory addFaculty (Faculty faculty) 
+
+This function adds a faculty to the faculty directory. 
+
+ 
+
+removeFaculty () 
+
+This function removes a faculty from the faculty directory. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+StudentDirectory addStudent (Student student) 
+
+This function adds a student to the student directory. 
+
+ 
+
+removeStudent () 
+
+This function removes a student from the student directory. 
+
+ 
+
+CourseCatalog addCourse (Course course) 
+
+This function adds a course to the course catalog. 
+
+ 
+
+removeCourse () 
+
+This function removes a course from the course catalog. 
+
+ 
+
+DepartmentDirectory addDepartment (Department department) 
+
+This function adds a department to the department directory. 
+
+ 
+
+removeDepartment () 
+
+This function removes a department from the department directory. 
+
+ 
+
+Integer setCourseRankingBasedOnAlumniFeedback() 
+
+This method sets the rank of a course based on the feedback of alumni student w.r.t the current job designation, salary and the relevant courses the alumni had enrolled in. 
+
+ 
+
+Integer setFacultyRankingBasedOnStudentFeedback() 
+
+This method sets the rank of a faculty based on feedback given by current students. 
+
+ 
